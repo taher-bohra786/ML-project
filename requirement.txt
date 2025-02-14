@@ -1,0 +1,4 @@
+Flask app
+numpy
+pandas
+scikit-learn    (The reason why we are creating this txt file is that we can download all this things in one go in the template by using pip install -r requirement.txt)
