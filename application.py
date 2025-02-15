@@ -1,10 +1,12 @@
+# I have renaamed the file as app.py to application.py for the deployment purpose
 from flask import Flask , request , jsonify , render_template
 import pickle
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-app = Flask(__name__)
+application = Flask(__name__)
+app=application
 
 #import ridge regression model and standard scaler pickle
 ridge_model = pickle.load(open('models/ridge.pkl','rb'))
